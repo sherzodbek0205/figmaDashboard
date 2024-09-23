@@ -1,0 +1,17 @@
+@import'sass/main';
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    width: 100vh;
+    background: #161928;
+    font-family: "Inter";
+}
+.container{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}

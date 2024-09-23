@@ -1,0 +1,39 @@
+@mixin display{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+    width: 240px;
+height: 1321px;
+padding: 26px;
+border-right: 0.1px solid rgba(38, 40, 53, 1);
+.main{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #ADB3CC;
+    font-size: 14px;
+}
+.yet{
+  @include display();
+  gap: 94px;
+}
+.yett{
+    @include display();
+    gap: 113px;  
+}
+h5{
+ color: var(--text-label, #55597D);
+}
+}
